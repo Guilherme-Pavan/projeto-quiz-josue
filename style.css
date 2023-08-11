@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'buena-classic';
+    src: url('font/eBuenaClassic.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --cor0: #D99E6A;
+    --cor01: #593A27;
+    --cor02: #A67356;
+    --cor03: #F2D5C4;
+    --cor04: #26120D;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
+    background-color: var(--cor0);
+}
+header{
+    background-color: var(--cor01);
+    color: white;
+    margin: 0px;
+    padding: 15px;
+}
+header h1{
+    font-size: 2.5em;
+    font-family: 'buena-classic';
+    text-align: center;
+}
+main{
+    background-color: var(--cor03);
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+}
+section h2{
+    font-size: 2.5em;
+    font-family: 'buena-classic';
+    text-align: center;
+}
+article{
+    margin: 10px;
+    padding: 10px;
+    line-height: 3em;
+}
+input{
+    text-align: right;
+}
+input#button{
+    border-radius: 4px;
+    padding: 7px;
+    margin-left: 10px;
+}
+input#button:hover{
+    background-color: #69DC9E;
+    
+}
+footer{
+    background: var(--cor01);
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+
+}
+footer p{
+    margin: auto;
+    padding: 5px;
+}
+div.container-sessoes-index{
+    text-align: center;
+}
+button{
+    border-radius: 6px;
+    padding: 5px;
+    width: 90px;
+}
+button:hover{
+    background-color: #69DC9E;
+}
